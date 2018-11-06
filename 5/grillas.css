@@ -1,0 +1,28 @@
+*,h1{
+  margin: 0;
+  padding: 0;
+}
+
+.row{width: 94%; margin: 0 auto;}
+.row,.fluid-row{clear: both; }
+
+.fluid-row {
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  background: rgb(105, 191, 86);
+  color: white;
+}
+
+.fluid-row div{padding: 16px}
+.fluid-row{margin-bottom: 15px;}
+
+.col-1{width: 33.33%;}
+.col-2{width: 66.67%;}
+.col-3{width: 100%;}
+.col-1,.col-2,.col-3{float: left;}
+
+
+.col-1 .img-responsive{
+  max-width: 100%
+}
